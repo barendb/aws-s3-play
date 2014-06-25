@@ -1,0 +1,25 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# mstest test results
+TestResults
+project/*.suo
+project/_ReSharper.*
+project/Database/
+project/Database/*
+*.DotSettings.user
+*.csproj.user
+*.suo
+*.user
+
+# SSDT files
+*.dbmdl
+project/*.user
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+#nuget
+packages/*
