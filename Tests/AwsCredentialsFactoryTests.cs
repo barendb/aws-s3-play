@@ -12,8 +12,8 @@ namespace Tests
 			IAwsCredentialsFactory awsCredFactory = new AwsCredentialsFactory();
 			var creds = awsCredFactory.Create();
 
-			Assert.AreEqual("AKIAJLNF4DABPNTN77BA", creds.AwsAccessKeyId);
-			Assert.AreEqual("teCQu8ftTxq0rgMl2rSQKroX4gKIbSM73uwQVgZV", creds.AwsSecretAccessKey);
+			Assert.AreEqual("/* some key */", creds.AwsAccessKeyId);
+			Assert.AreEqual("/* some secret */", creds.AwsSecretAccessKey);
 		}
 	}
 }
